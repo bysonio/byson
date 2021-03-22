@@ -3,3 +3,8 @@ body {
   background-color: #f2f2f2;
   font-family:futura-pt;
 }
+container {
+  padding-right: 0;
+  padding-left: 0;
+  background-color: #f2f2f2;
+}
