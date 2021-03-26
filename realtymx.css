@@ -1,4 +1,4 @@
-.full-layout .body {
+.full-layout   overflowYHide .body {
   margin: 25px;
   font-family:futura-pt;
   -webkit-font-smoothing: antialiased;
