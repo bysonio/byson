@@ -857,7 +857,7 @@ a.nav_carrers {
   background-color:rgb(242 242 242);
   font-family:futura-pt;
 } 
-.pagination ul li a {
+.pagination {
     padding: 5px;
     line-height: normal;
     border-radius: 1;
@@ -871,7 +871,6 @@ a.nav_carrers {
     min-width: 32px;
     font-family:futura-pt;
     height: 32px;
-    border: 1px solid #000000;
     position: relative;
 }
 
