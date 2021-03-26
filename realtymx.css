@@ -1,9 +1,9 @@
 body {
-	font-family: "Lora",serif;
+	font-family:futura-pt;
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-	font-family: "Lora",serif;
+	font-family:futura-pt;
 }
 
 .owl-portfolio .meta {
@@ -137,7 +137,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	letter-spacing: 3px;
 	padding-top: 0px;
 	margin-top: 40px;
-	font-family: 'Lora', serif;
+	font-family:futura-pt;
 }
 
 .navbar.basic.fixed .navbar-brand img {
@@ -297,7 +297,7 @@ a.nav_carrers {
 	color: #2E2E2E;
 
 	/*font-family: 'Playfair Display', serif;*/
-	font-family: 'DidotLTStdHeadline', serif;
+	font-family:futura-pt;
 	margin-top: 5px;
 	font-size: 21px;
 	text-transform: uppercase;
