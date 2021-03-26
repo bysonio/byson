@@ -35,3 +35,6 @@
 .mx-idx-myaccount-menu a {
   display: none !important;
 }
+.sqs-block horizontalrule-block sqs-block-horizontalrule {
+  background-color:rgb(242 242 242);
+  } 
