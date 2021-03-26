@@ -849,6 +849,13 @@ a.nav_carrers {
     font-family:futura-pt;
 }
 
+#stickySearch, #search-tab {
+  padding-right: 0;
+  padding-left: 0;
+  background-color:rgb(242 242 242);
+  font-family:futura-pt;
+} 
+
 /*.body {
   margin: 25px;
   font-family:futura-pt;
