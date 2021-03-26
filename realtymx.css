@@ -29,3 +29,6 @@
 .idx-quick-search input.search-query {
   display: none !important;
 }
+.mx-idx-myaccount-menu a {
+  display: none !important;
+}
