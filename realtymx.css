@@ -842,7 +842,12 @@ a.nav_carrers {
 .mx-idx-myaccount-menu a {
   display: none !important;
 }
-
+.properties .property-card .image-caption .price {
+    font-weight: 500;
+    font-size: 21px;
+    color: #616161;
+    font-family:futura-pt;
+}
 
 /*.body {
   margin: 25px;
