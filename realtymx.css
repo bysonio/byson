@@ -26,3 +26,6 @@
   background-color:rgb(242 242 242);
   font-family:futura-pt;
 }
+.idx-quick-search input.search-query {
+  display: none !important;
+}
