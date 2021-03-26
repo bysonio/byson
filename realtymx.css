@@ -5,9 +5,8 @@
   -webkit-text-size-adjust: 100%;
   font-family: 'Raleway', sans-serif;
   overflow-x: hidden;
-  background-color: #981f1f !important;
-  color: #3f8dbf;
-  font-size: 14px;
+  background-color:rgb(242 242 242);
+  font-size: 5px;
   font-weight: 500;
 }
 #stickySearch.dark-wrapper {
@@ -16,7 +15,7 @@
   background-color:rgb(242 242 242);
   font-family:futura-pt;
 }
-dark-wrapper {
+.dark-wrapper {
   padding-right: 0;
   padding-left: 0;
   background-color:rgb(242 242 242);
