@@ -3,7 +3,7 @@ body {
   background-color:rgb(242 242 242);
   font-family:futura-pt;
 }
-container {
+dark-wrapper {
   padding-right: 0;
   padding-left: 0;
   background-color: #f2f2f2;
