@@ -9,8 +9,11 @@
   background-color:rgb(242 242 242);
 }
 .stickySearch {
-  background-color:#f2f2f2;
+  background-color:rgb(242 242 242);
 }
 .nav-login {
   display: none;
+}
+.p {
+  background-color:rgb(242 242 242);
 }
