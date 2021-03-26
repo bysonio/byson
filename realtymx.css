@@ -278,7 +278,8 @@ a.nav_carrers {
 }
 
 .homeSearch .site-search #thisVal {
- 	width: 8%;
+ 	width: 100%;
+	display:none !important;
 }
 
 .homeSearch #webIDForm .btn {
