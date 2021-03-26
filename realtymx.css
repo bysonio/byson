@@ -11,3 +11,6 @@ dark-wrapper {
 stickySearch {
   background-color:#f2f2f2;
 }
+nav-login {
+  display: none;
+}
