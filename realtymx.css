@@ -857,22 +857,6 @@ a.nav_carrers {
   background-color:rgb(242 242 242);
   font-family:futura-pt;
 } 
-.pagination {
-    padding: 5px;
-    line-height: normal;
-    border-radius: 1;
-    text-align: center;
-    vertical-align: middle;
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    justify-items: center;
-    min-width: 32px;
-    font-family:futura-pt;
-    height: 32px;
-    position: relative;
-}
 
 /*.body {
   margin: 25px;
