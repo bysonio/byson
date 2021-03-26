@@ -836,7 +836,12 @@ a.nav_carrers {
     margin-bottom: 20px;
 	}
 }
-
+.idx-quick-search input.search-query {
+  display: none !important;
+}
+.mx-idx-myaccount-menu a {
+  display: none !important;
+}
 
 
 /*.body {
