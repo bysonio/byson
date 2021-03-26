@@ -10,18 +10,18 @@
   font-size: 14px;
   font-weight: 500;
 }
-.dark-wrapper {
+#stickySearch.dark-wrapper {
   padding-right: 0;
   padding-left: 0;
   background-color:rgb(242 242 242);
   font-family:futura-pt;
 }
-#stickySearch, #search-tab {
+/* #stickySearch, #search-tab {
   padding-right: 0;
   padding-left: 0;
   background-color:rgb(242 242 242);
   font-family:futura-pt;
-}
+} */
 .nav-login {
   display: none !important;
 }
