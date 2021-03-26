@@ -20,7 +20,7 @@
   background-color:rgb(242 242 242);
 }
 .nav-login {
-  display: none;
+  display: none !important;
 }
 .p {
   background-color:rgb(242 242 242);
