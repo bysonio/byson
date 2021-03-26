@@ -1,4 +1,844 @@
-.body {
+body {
+	font-family: "Lora",serif;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: "Lora",serif;
+}
+
+.owl-portfolio .meta {
+	margin-bottom: 0px;
+	text-transform: uppercase;
+	letter-spacing: 0px;
+}
+
+/**********Areas check box updated - Start ****************/
+.catsCheckArea {
+    position: absolute;
+    margin: 5px 0px 0px;
+    z-index: 10;
+    /*border: 1px solid #E5E5E5; */
+    background: none repeat scroll 0% 0% padding-box #FFF;
+    border-radius: 4px;
+    font-size: 14px;
+    padding-top: 5px;
+    /*width: 980px !important; */
+}
+
+#search-tab #searchNeighborhood ul.dropdown-list .row {
+    width: 100%;
+}
+
+.catsCheckArea input[type="checkbox"] {
+    float: left;
+		width: auto;
+		margin-right: 7px;
+		display:block !important;
+}
+
+.lbSubAreas {
+	font-weight:normal;
+}
+
+.mainAreasTab {
+	float:left; 
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.mainAreasTab {
+	color: #aaa;
+}
+
+.mainAreasTab:hover, .mainAreasTab.on {
+	color: #4C4C4C;
+}
+
+.areaCheckboxs {
+	display:none;
+}
+
+.areaCheckboxs.on {
+	display:block;
+}
+
+#searchNeighborhood .dropdown-list {
+	margin-left: 0px !important;
+}
+
+.homeSearch #search-tab #searchNeighborhood ul.dropdown-list .row {
+	width: 1180px;
+	min-height: 120px;
+}
+
+.homeSearch #search-tab #searchNeighborhood ul.dropdown-list {
+	margin-left: -310px !important;
+	top: -220px;
+	box-shadow: 0px 0px 11px #000;
+}
+
+.homeSearch #search-tab li ul.dropdown-list.more {
+	top: -340px;
+	margin-left: -100px;
+	box-shadow: 0px 0px 11px #000;
+}
+
+.searchClose {
+	display: none;
+}
+
+.homeSearch .searchClose {
+	display: block;
+	float: right;
+	cursor: pointer;
+}
+
+.homeSearch #more .searchClose {
+	margin-bottom: 0px;
+}
+
+#search-tab li ul.dropdown-list {
+	box-shadow: 0px 0px 11px #000;
+}
+
+#search-tab {
+	float: none;
+}
+
+
+#search-tab li ul.dropdown-list {
+	margin-left: 0px !important;
+}
+
+.form-register p span a {
+	color: #000;
+	text-decoration: underline;
+	font-weight:bold;
+}
+
+.navbar-header {
+  background: #F5F5F5 none repeat scroll 0% 0%;
+	box-shadow: 0px 0px 4px #000;
+}
+
+.navbar-brand img {
+	margin: auto;
+	display: block;
+	width:auto;
+	margin-top: 20px;
+}
+
+.navbar-nav > li > a {
+	font-weight: normal;
+	font-size: 11pt;
+	line-height: 17pt;
+	color: #000;
+	padding-bottom: 20px;
+	letter-spacing: 3px;
+	padding-top: 0px;
+	margin-top: 40px;
+	font-family: 'Lora', serif;
+}
+
+.navbar.basic.fixed .navbar-brand img {
+    opacity: 1;
+		height: auto;
+}
+
+.navbar.basic .navbar-collapse {
+    text-align: center;
+    margin: 0px auto;
+    width: 100%;
+}
+
+ul.navbar-nav {
+	 display: inline-block;
+	 width: 100%;
+}
+
+.navbar-nav > li {
+		float:none;
+    display: inline-block;
+}
+
+.navbar.basic.fixed .navbar-brand {
+	background:none;
+	width: 100%;	
+}
+
+.fullwidthbanner-container {
+    max-height: 800px !important;
+}
+
+.dark-wrapper {
+    border-bottom: 1px solid #E3E3E3;
+    background: #F4F4F4 none repeat scroll 0% 0%;
+}
+
+.mainHr {
+ 	border-color: #ccc;
+  border-width: 0px 0px 2px;
+}
+
+.footertext1 {
+    margin-left: 13px;
+}
+
+.footer-contact h4 {
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12pt;
+    letter-spacing: 1pt;
+}
+
+.footer-contact h4 {
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12pt;
+    letter-spacing: 1pt;
+}
+
+.sub-footer {
+    /*background: #A9BF00 none repeat scroll 0% 0%;*/
+		background: none;
+    padding: 15px 0px 55px;
+}
+
+.sub-footer .social {
+    text-align: center;
+    margin-top: -25px;
+    margin-bottom: -5px;
+}
+
+
+.sub-footer .social li a i {
+
+    color: #f4f4f4 !important;
+
+    width: 32px;
+    height: 32px !important;
+    font-size: 18px;
+}
+
+
+.home-wrapper .dark-wrapper {
+	border: none;
+}
+
+.mainHr.footer {
+	border-color: #ccc;
+}
+
+/*
+.footer-copyright {
+	font-weight: bold !important;
+	font-size: 13px !important;
+}
+*/
+
+.icon-overlay a:hover .icn-more {
+    opacity: 0;
+}
+
+#search-tab li,#searchBtn {
+    border-radius: 0px;
+}
+
+.navbar-nav > li > .dropdown-menu {
+    text-align: left;
+}
+
+a.client_account {
+	color: #4CAE4C !important;
+}
+
+a.nav_carrers {
+	color:#E8554E !important;
+}
+
+.homeSearch {
+	text-align:center;
+ 	-webkit-transition-delay: 2s; /* Safari */
+  transition-delay: 2s;
+	-webkit-transition-duration: 5s; /* Safari */
+  transition-duration: 5s;
+	margin-top:-30px;
+}
+
+.homeSearch #webIDForm {
+	display: inline-block;
+	z-index: 99;
+	position: relative;
+	margin-bottom: 360px;
+	width: 640px;
+	margin-left: 7px;
+	margin-top: -400px;
+}
+
+.homeSearch .site-search #thisVal {
+ 	width: 85%;
+}
+
+.homeSearch #webIDForm .btn {
+	float: left;
+	border-radius: 0px;
+	margin-left: 4px;
+}
+
+.btn, .parallax .btn-submit, .btn-submit {
+    border-radius: 0px;
+}
+
+.lbLogo {
+	text-align: center;
+	color: #2E2E2E;
+
+	/*font-family: 'Playfair Display', serif;*/
+	font-family: 'DidotLTStdHeadline', serif;
+	margin-top: 5px;
+	font-size: 21px;
+	text-transform: uppercase;
+}
+
+.btnPayment {	
+	margin-top: 29px;
+}
+
+.image-caption .reduced.rented, .image-caption .reduced.sold, .image-caption .reduced.in-contract {
+	position: absolute;
+	top: -187px;
+	border-radius: 0px;
+
+	font-size: 11px;
+	right: -1px;
+	color: rgb(255, 255, 255);
+	padding: 1px 4px;
+	opacity: 0.9;
+}
+
+
+.home-wrapper .logo-section {
+	margin-top: 30px;
+	margin-bottom: -30px;
+}
+
+
+
+.footer-contact h4 {
+	font-family: "Lora",serif;
+	font-weight: normal !important;
+	color: #555;
+}
+
+.homeSearch {
+
+    /*margin-top: -63px;*/
+    z-index: 99;
+    position: relative;
+		background-color:rgba(255,255,255,0.5) !important;
+}
+
+.homeSearch form {
+	text-align: center;
+}
+
+.homeSearch #search-tab {
+	background: none;
+	/*margin-left: 27%; */
+	display:inline-block;
+	padding-bottom: 3px;
+}
+
+#search-tab li {
+    border-radius: 0px;
+    text-align: left;
+}
+
+.image-caption h3 a {
+	font-family: "Lora",serif;
+	font-weight: normal;
+	letter-spacing: 0.5px;
+	color: #000;
+}
+
+.lbPrice {
+	font-weight: normal;
+	letter-spacing:0.5px;
+	color:#555;
+}
+
+.item .image-caption h3 {
+	min-height: 46px;
+}
+
+.item .image-caption h3 {
+	font-size: 14px;
+}
+
+.items .meta {
+    text-transform: uppercase;
+}
+
+#stickySearch, #search-tab {
+    background-color: #000000 !important;
+}
+
+#searchBtn, #mobileSearchBtn {
+
+	border: none;
+	padding-top: 11px;
+	padding-bottom: 11px;
+	color:#fff !important;
+}
+
+@media screen and (max-width: 1199px) {
+	.homeSearch #search-tab #searchNeighborhood ul.dropdown-list .row {
+    width: 550px;
+	}
+	.homeSearch #search-tab #searchNeighborhood ul.dropdown-list {
+    margin-left: 0px !important;
+	}	
+	.homeSearch #search-tab #searchNeighborhood ul.dropdown-list {
+		top: -320px;
+	}
+}
+
+@media screen and (min-width: 991px) {
+	.fullwidthbanner {
+		height: 800px !important;
+		max-height: 800px !important;
+		margin-top: 111px;
+	}
+	.fullwidthbanner ul {
+		max-height: 800px !important;
+	}
+	.tp-caption.bold {
+		/*font-size: 70px !important;*/
+		font-size: 38pt;
+	 	line-height: 57pt;
+		letter-spacing: 2pt;
+		text-shadow: 0px 0px 1px rgb(0, 0, 0);
+	}
+	.pay-section {
+		position: absolute;
+		right: -17%;
+	}
+	.management .items.col4 {
+    margin-left: 30px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.navbar.basic .navbar-nav > li {
+    width: 100%;
+	}
+	.navbar.basic .btn.responsive-menu {
+    width: 44px;
+    float: right;
+	}
+	.navbar-brand img {
+		position: absolute;
+		left: 0px;
+	}
+	.lbLogo {
+		float:left;
+	}
+	
+	.logo-section {
+		height: 55px;
+		padding-right: 0px;
+    	padding-left: 0px;
+
+	}
+	.navbar.basic.default .navbar-brand img {
+		margin-left: 10px;
+	}
+	
+	
+	.navbar-brand img {
+
+		margin-left: 30px;
+	}
+	
+	.pay-section {
+		text-align: center;	
+	}
+}
+
+@media screen and (max-width: 979px) {
+
+	.homeSearch #search-tab li ul.dropdown-list.more {
+		top: -200px;
+		margin-left: -220px;
+	}
+	.navbar.basic .navbar-nav > li {
+    width: 100%;
+	}
+	.navbar.basic .btn.responsive-menu {
+		margin-right: 7%;
+	}
+	.navbar-nav > li > a {
+    margin-top: 0px;
+	}
+	
+	.home-wrapper .logo-section {
+		margin-top: 0px;
+	}
+	.navbar-header .row {
+		margin:0px;
+	}
+}
+
+
+@media screen and (max-width: 767px) {
+	#searchNeighborhood [class*="col-"] {
+			margin-bottom: 0px;
+	}
+	.homeSearch #search-tab #searchNeighborhood ul.dropdown-list .row {
+			width: 370px;
+	}
+	
+	.homeSearch #search-tab #searchNeighborhood ul.dropdown-list {
+		top: -180px;
+	}
+	.homeSearch #search-tab li ul.dropdown-list.more {
+		top: -100px;
+		margin-left: -250px;
+	}
+	.navbar-brand img {
+		margin-left: 40px;
+		margin-top: 20px;
+	}
+	.navbar.basic .btn.responsive-menu {
+		margin-right: 0px;
+	}
+
+	.homeSearch .site-search #thisVal {
+    width: 80%;
+	}
+	
+	.homeSearch #webIDForm {
+    	margin-bottom: 280px;
+		margin-top: -320px;
+	}
+	/*
+	.homeSearch #webIDForm {
+    margin-top: -120px;
+    margin-bottom: 75px;
+	}
+	*/
+	
+}
+
+
+@media screen and (max-width: 480px) {
+	.lbSubAreas {
+    font-weight: bold;
+    font-size: 11px;
+	}
+	#searchNeighborhood [class*="col-"] {
+    margin-bottom: -4px;
+	}
+	.homeSearch #search-tab #searchNeighborhood ul.dropdown-list {
+    margin-left: -50px !important;
+		top: 50px;
+	}
+	.homeSearch .searchClose {
+		display:none;
+	}
+	.homeSearch #search-tab li ul.dropdown-list.more {
+    top: 50px;
+	}
+	.navbar-brand img {
+		width: 230px;
+
+	}
+	/*
+	.homeSearch .site-search #thisVal {
+    width: 44%;
+	}
+	*/
+	.lbLogo {
+		font-size: 27px !important;
+	}
+
+}
+
+@media screen and (max-width: 420px) {
+	.col-mainAreasTab {
+		margin-bottom: 15px !important;
+	}
+}
+
+@media screen and (max-width: 414px) {
+	.details .content-main {
+			padding-left: 0px;
+			padding-right: 0px;
+	}
+	.owl-slider-wrapper .item img, .owl-slider-wrapper .imageIsVert img {
+    height: 240px !important;
+    max-height: 240px;
+    width: 100%;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.homeSearch #search-tab #searchNeighborhood ul.dropdown-list {
+		margin-left: -20px !important;
+	}
+	.homeSearch #search-tab #searchNeighborhood ul.dropdown-list .row {
+    width: 100%;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	#search-tab #searchNeighborhood ul.dropdown-list .row {
+		width: 105%;
+	}
+}
+
+/**********Areas check box updated - End ****************/
+
+#loginModal {
+	top: 120px;
+
+}
+
+#loginModal .modal-body {
+	height: 470px;
+  overflow-y: auto;
+}
+
+
+#loginModal h4 small{
+	color: #B50102;
+}
+
+#loginModal #cbAgreement { 
+	width: 11px;
+	float: right;
+	float: left;
+	margin-right: 10px;
+	margin-top: 6px;
+}
+
+/****** agent list page - seach panel ******/
+.agentSearch {
+    background-color: #FFF;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 4px;
+}
+
+.aBox {
+    width: 250px;
+    height: auto;
+    border: 1px solid #CCC;
+    margin: 0px 20px 15px 0px;
+    float: left;
+    overflow: hidden;
+}
+
+.aBox img {
+    width: 250px;
+    height: 250px;
+    z-index: 0;
+}
+
+.agentSearch h4 {
+    text-transform: uppercase;
+    float: left;
+    margin-right: 30px;
+}
+
+.agentSearch .alphabet {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    line-height: 1.1;
+}
+
+.agentSearch .agentNames {
+    float: left;
+    width: 350px;
+    margin-top: 5px;
+    height: 36px;
+}
+
+.agentSearch .agentNames h4, .agentSearch .agentLanguage h4 {
+    line-height: 45px;
+}
+
+.agentNames form {
+    float: left;
+    width: 60%;
+}
+
+.agentNames form input {
+    float: left;
+    width: 70%;
+    height: 36px;
+    border-right: medium none;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-right: -2px;
+}
+
+.agentNames form button {
+	height: 36px;
+	background: none repeat scroll 0% 0% transparent;
+	border: 1px solid rgb(201, 201, 201);
+	border-left: none;
+	border-image: none;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	color: #3F8DBF !important;
+	padding-left: 0px;
+	border: 1px solid #DADADA;
+	border-left: none;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+
+.agentNames .btn:hover,
+.agentNames .btn:focus,
+.agentNames .btn:active {
+    background: none repeat scroll 0% 0% transparent !important;
+    color: #3F8DBF !important;
+    -webkit-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+#search-tab li ul.dropdown-list.agentCheckArea  {
+	margin-left: -137px !important;
+}
+
+#search-tab li ul.dropdown-list.agentCheckArea li .row {
+	width: 100%;
+}
+
+/*
+.portfolio .image-caption .reduced.in-contract {
+	position: absolute;
+	color: rgba(255, 255, 255);
+	padding: 1px 5px;
+	top: -186px;
+	right: 0px;
+	background-color: rgba(0,0,0,0.7);
+	opacity: 0.9;
+	font-size: 17px;
+	background-color: rgba(155, 89, 182, 0.92);
+}
+*/
+
+
+.company-blog .icon-overlay img { 
+	max-height: 145px;
+}
+
+#lbRentedSold {
+	position: absolute;
+	background: #4CAE4C none repeat scroll 0% 0%;
+	color: rgb(255, 255, 255);
+	padding: 4px;
+	bottom: 0px;
+	right: 50px;
+}
+
+#AgentSide .agent {
+	margin-top:1em;
+	min-height: 70px;
+}
+
+
+/****home-social-widget ****/
+.home-social-widget {
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3), 0px 0px 40px rgba(0, 0, 0, 0.1);
+    position: relative;
+    padding: 0.5em;
+    margin: 0.5em auto;
+    width: 100%;
+    max-width: 500px;
+    overflow: hidden;
+		height:610px;
+}
+
+.home-social-widget #instagramCarousel .col-xs-4 {
+    padding: 1px;
+}
+
+.listMap .topListMap {
+    top: 110px;
+}
+
+#mapView, #gridView, #listView {
+	margin-right: 5px;
+}
+
+.page-title {
+	min-height: 60px;
+}
+
+.page-title .inner {
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+
+/****home-social-widget ****/
+
+/* width: 720px */
+@media screen and (max-width: 720px) {
+	.agentSearch .alphabet {
+			clear: both;
+	}
+	.agentLanguage {
+		margin-top: 50px; 
+  }
+}
+
+@media screen and (max-width: 460px) {
+	#search-tab li ul.dropdown-list.agentCheckArea {
+			margin-left: 0px !important;
+	}
+}
+
+@media screen and (max-width: 414px) {
+	.details .content-main {
+			padding-left: 0px;
+			padding-right: 0px;
+	}
+	.owl-slider-wrapper .item img, .owl-slider-wrapper .imageIsVert img {
+    height: 240px !important;
+    max-height: 240px;
+    width: 100%;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.agentSearch h4 {
+    margin-right: 10px;
+	}
+	.agentNames form {
+    width: 50%;
+	}
+	.aBox {
+    margin-left: 20px;
+    margin-bottom: 20px;
+	}
+}
+
+
+
+/*.body {
   margin: 25px;
   font-family:futura-pt;
   -webkit-font-smoothing: antialiased;
@@ -42,4 +882,4 @@
 }
 .sqs-block horizontalrule-block sqs-block-horizontalrule {
   background-color:rgb(242 242 242);
-  } 
+  } */
