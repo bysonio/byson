@@ -393,6 +393,7 @@ a.nav_carrers {
 	padding-top: 11px;
 	padding-bottom: 11px;
 	color:#000 !important;
+	background-color: #f2f2f2;
 }
 
 @media screen and (max-width: 1199px) {
