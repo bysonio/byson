@@ -855,7 +855,7 @@ a.nav_carrers {
   background-color:rgb(242 242 242);
   font-family:futura-pt;
 } 
-*:before {
+*,*:before {
   background-color:rgb(242 242 242);
 }
 
