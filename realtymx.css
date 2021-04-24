@@ -84,6 +84,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	box-shadow: 0px 0px 11px #000;
 }
 
+#search-tab li ul.dropdown-list {
+	box-shadow: none;
+}
+
 .searchClose {
 	display: none;
 }
@@ -289,6 +293,10 @@ a.nav_carrers {
 	margin-left: 4px;
 }
 
+.btn {
+	color: #334763;
+}
+
 .btn, .parallax .btn-submit, .btn-submit {
     border-radius: 0px;
 }
@@ -312,7 +320,7 @@ a.nav_carrers {
 	position: absolute;
 	top: -187px;
 	border-radius: 0px;
-
+	font-family: futura pt;
 	font-size: 11px;
 	right: -1px;
 	color: rgb(255, 255, 255);
@@ -362,7 +370,8 @@ a.nav_carrers {
 	font-family:futura pt;
 	font-weight: normal;
 	letter-spacing: 0.5px;
-	color: #000;
+	color: #334763;
+	font-weight: 500;
 }
 
 .lbPrice {
@@ -394,6 +403,22 @@ a.nav_carrers {
 	padding-bottom: 11px;
 	color:#000 !important;
 	background-color: #ffffff;
+}
+
+.properties .property-card .image-caption {
+	font-family: futura pt;
+	padding: 1.25em;
+}
+
+.modal-content {
+	font-family: futura pt;
+	color: #333333;
+}
+
+.modal-title {
+	font-family: futura pt;
+	text-transform: uppercase;
+	letter-spacing: 0.75px;
 }
 
 @media screen and (max-width: 1199px) {
@@ -847,7 +872,7 @@ a.nav_carrers {
 .properties .property-card .image-caption .price {
     font-weight: 500;
     font-size: 21px;
-    color: #616161;
+    color: #333333;
     font-family:futura pt;
 }
 
@@ -857,6 +882,10 @@ a.nav_carrers {
   background-color:rgb(242 242 242);
   font-family:futura pt;
 } 
+
+.navbar-right.property-filter-options {
+	margin-right: 0;
+}
 
 /*.body {
   margin: 25px;
