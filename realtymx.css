@@ -410,6 +410,14 @@ a.nav_carrers {
 	padding: 1.25em;
 }
 
+.modal-header {
+	padding: 20px;
+}
+
+.filterSearchModal .modal-body {
+	padding: 20px !important;
+}
+
 .modal-content {
 	font-family: futura pt;
 	color: #333333;
@@ -884,7 +892,7 @@ a.nav_carrers {
 } 
 
 .navbar-right.property-filter-options {
-	margin-right: 0;
+	margin-right: 0 !important;
 }
 
 /*.body {
